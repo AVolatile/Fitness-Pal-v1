@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fitness Pal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Fitness Pal</h1>
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="number" id="age" placeholder="Age" required />
+            <input type="text" id="disabilities" placeholder="Disabilities (comma separated)" />
+            <input type="text" id="healthRisks" placeholder="Health Risks (comma separated)" />
+            <input type="text" id="strengths" placeholder="Strengths (comma separated)" />
+            <input type="text" id="weaknesses" placeholder="Weaknesses (comma separated)" />
+            <input type="text" id="goals" placeholder="Goals" required />
+            <button type="submit">Submit</button>
+        </form>
+        <div id="recommendations"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
